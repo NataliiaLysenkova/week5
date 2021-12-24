@@ -1,0 +1,100 @@
+body {
+    display: block;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Jost', sans-serif;
+}
+
+.header {
+    height: 65px;
+    width: 100%;
+    background-color: #dfdbdb;
+}
+
+.main {
+    display: flex;
+    height: 540px;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(229, 218, 182);
+}
+
+.aside {
+    margin-left: 15px;
+    display: flex;
+    flex-grow: 0;
+    width: 30%;
+    height: 540px;
+    background-color: rgb(173, 195, 129);
+}
+
+.flex-container {
+    margin-left: 15px;
+    margin-top: 60px;
+    display: flex;
+    width: 1010px;
+    height: 420px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.sections12 {
+    margin-top: 100px;
+    display: flex;
+    flex-flow: row;
+    width: 1010px;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.section1,
+.section2 {
+    height: 100px;
+    width: 450px;
+    flex-grow: 1;
+    background-color: rgb(241, 219, 121);
+}
+
+.section3 {
+    height: 100px;
+    width: 990px;
+    flex-grow: 1;
+    background-color: rgb(241, 219, 121);
+}
+
+.footer {
+    height: 114px;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(223, 219, 219);
+}
+
+.ftrsection1,
+.ftrsection2,
+.ftrsection3,
+.ftrsection4 {
+    background-color: whitesmoke;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 300px;
+    height: 70px;
+}
+
+.text {
+    text-align: center;
+    font-size: large;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.textf {
+    text-align: center;
+    font-size: large;
+    padding-top: 5px;
+}
